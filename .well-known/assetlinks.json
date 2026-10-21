@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.vfs.italyglobal",
+      "sha256_cert_fingerprints": [
+        "E6:BA:94:2C:6B:F8:2A:E6:A2:71:B8:22:65:40:64:57:3E:D4:1B:D2:D3:8D:B3:4C:E9:24:CD:9C:75:16:F5:25"
+      ]
+    }
+  }
+]
