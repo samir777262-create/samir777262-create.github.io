@@ -22,9 +22,9 @@
 </div>
 <script>
 (function () {
-  var hash = location.hash || '';
-  var i = hash.indexOf('t=');
-  var token = i >= 0 ? decodeURIComponent(hash.substring(i + 2)) : '';
+  var src = (location.hash && location.hash.indexOf('t=') >= 0) ? location.hash : (location.search || '');
+  var i = src.indexOf('t=');
+  var token = i >= 0 ? decodeURIComponent(src.substring(i + 2)) : '';
   var btn = document.getElementById('btn');
   var msg = document.getElementById('msg');
   if (!token || token.indexOf('VFS1.') !== 0) {
